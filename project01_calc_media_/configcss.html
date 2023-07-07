@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+        <meta charset="utf-8">
+        <title>Calc Média</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="href_header"><<<-VOLTAR</a>
+            </nav>
+
+            <h3>PROJECT 01 - CALC MÉDIA</h3>
+            <h4>HTML / CSS / JS / PYTHON</h4>
+        </header>
+        <br>
+
+        <section class="container" id="container1"> 
+            <br>
+            <label for="valor1">Informe o primeiro valor</label>
+            <br>
+            <input type="number" id="valor1" placeholder="Insira aqui">
+            <br><br>
+
+            <label for="valor2">Informe o segundo valor</label>
+            <br>
+            <input type="number" id="valor2" placeholder="Insira aqui">
+            <br><br>
+
+            <label for="valor3">Informe o terceiro valor</label>
+            <br>
+            <input type="number" id="valor3" placeholder="Insira aqui">
+            <br><br>
+
+            <button onclick="calc()">CALCULAR</button>
+
+            <button onclick="clear_inputs()">LIMPAR</button>           
+            <br><br>
+
+            <form method="POST">
+                <p><b>A média dos 3 valores acima é: <u><input type="number" id="result" name="nota" readonly></u></b></p>
+                <input type="text" placeholder="Insira seu nome aqui" name="nome">
+                <br/>
+                <button type="submit">CADASTRAR</button>
+            <form>
+
+            <script src="js/javascript_calc_media_.js"></script>
+
+            <br>
+
+            <a href="calc_media2.html">Deseja calcular a média de mais valores?</a>
+            <br><br><br>
+        </section>
+        <br><br>
+
+        <footer>
+            <h3>PROJECT 01 - CALC MÉDIA</h3>
+            <h4>HTML / CSS / JS / PYTHON</h4>
+            <br>
+            <p class="footer_config">Contatos:</p>
+            <p class="footer_config">Email: dalmorajoaodavi@gmail.com</p>
+            <p class="footer_config">Whatsapp: (49) 99836-0507</p>
+        </footer>
+    </body>
+</html>
